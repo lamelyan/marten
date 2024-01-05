@@ -78,7 +78,7 @@ Of course, it is fully up to you how you want to configure grate or if you want 
 
 ## Application project set-up
 
-How you set-up your csproj is all up to you, but for this example you'll need to install the nuget package `Marten.CommandLine`, so we can export migrations to the migration project in a later step and pre generate code. Furthermore, the latest line in your `program.cs` needs to be:
+How you set-up your csproj is all up to you, but for this example, you'll need to install the nuget package `Marten.CommandLine`, so we can export migrations to the migration project in a later step and pre generate code. Furthermore, the last line in your `program.cs` needs to be:
 
 ```cs
 return await app.RunOaktonCommands(args);
